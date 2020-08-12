@@ -1,4 +1,9 @@
 
+#include <SPI.h>
+#include <Ethernet.h>
+#include <EthernetUdp.h>
+
+
 const int led = LED_BUILTIN;
 const int buttonPin = 7;
 const int relay_count = 2;
